@@ -42,6 +42,6 @@ footer div img {
 /* Media query para ajustar o tamanho do logo em telas menores */
 @media (max-width: 768px) {
     #logo {
-        width: 50px; /* Ajusta a largura do logo para telas menores */
+        width: 65x; /* Ajusta a largura do logo para telas menores */
     }
 }
