@@ -1,0 +1,47 @@
+#logo {
+    width: 4vw;
+    height: auto;
+}
+
+.fade
+{
+        opacity:0.8;
+}
+.fade:hover
+{       
+        opacity:1;
+        
+}
+
+.grow:hover
+{
+        -xpedu-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+footer {
+    position: fixed; /* Fixa a footer no fundo da página */
+    bottom: 0; /* Posiciona a footer no fundo da página */
+    width: 100%; /* Ajusta a largura da footer para 100% */
+    background-color: #f8f9fa; /* Adiciona uma cor de fundo para a footer */
+}
+footer div {
+    position: absolute; /* Posiciona a div absolutamente dentro da footer */
+    right: 20px; /* Ajusta a posição da div para 20px do canto direito */
+    bottom: 20px; /* Ajusta a posição da div para 20px do canto inferior */
+}
+footer div a {
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+footer div img {
+    width: 50px; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Media query para ajustar o tamanho do logo em telas menores */
+@media (max-width: 768px) {
+    #logo {
+        width: 50px; /* Ajusta a largura do logo para telas menores */
+    }
+}
